@@ -7,7 +7,7 @@ import {
   getTasks,
   updateTask,
 } from "../controllers/task.controller.js";
-import { validateSchema } from "../middlewares/validator.Middleware.js";
+import { validateSchema } from "../middlewares/validator.middleware.js";
 import { createTaskSchema } from "../schemas/task.schema.js";
 
 const router = Router();
