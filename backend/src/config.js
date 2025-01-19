@@ -10,4 +10,4 @@ export const URL = process.env.URL || "mongodb://localhost/merndb";
 export const TOKEN_SECRET = process.env.TOKEN_SECRET || "secret123";
 export const JWT_EXPIRES = process.env.JWT_EXPIRES || "1d";
 export const FRONTEND_URL =
-  process.env.FRONTEND_URL || "http://localhost:5173/";
+  process.env.FRONTEND_URL || "http://localhost:5173";

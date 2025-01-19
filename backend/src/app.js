@@ -10,6 +10,7 @@ const app = express();
 app.use(
   cors({
     origin: FRONTEND_URL,
+    // origin: "http://localhost:5174",
     credentials: true,
   })
 );
