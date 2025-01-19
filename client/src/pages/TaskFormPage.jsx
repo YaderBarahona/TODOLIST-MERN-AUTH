@@ -27,7 +27,7 @@ function TaskFormPage() {
     loadTask();
   }, []);
 
-  const onSubmit = handleSubmit((data) => {
+  const onSubmit = handleSubmit( async (data) => {
     // console.log({ ...data, date: dayjs.utc(data.date).format() });
 
     const dataValid = {
@@ -36,9 +36,9 @@ function TaskFormPage() {
     };
 
     if (params.id) {
-      updateTask(params.id, dataValid);
+      await updateTask(params.id, dataValid);
     } else {
-      createTask(dataValid);
+      await createTask(dataValid);
     }
 
     navigate("/tasks");
