@@ -16,7 +16,7 @@ function Navbar() {
           <>
             <li>Welcome {user.username}</li>
             <li>
-              <Link to="/add-task">Add Task</Link>
+              <Link className="bg-blue-700 px-1 py-1 rounded-sm" to="/add-task">Add Task</Link>
             </li>
             <li>
               <Link className="bg-red-700 px-4 py-1 rounded-sm"
