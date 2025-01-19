@@ -15,7 +15,7 @@ function LoginPage() {
   const navigate = useNavigate();
 
   const onSubmit = handleSubmit((data) => {
-    console.log(data);
+    // console.log(data);
     signIn(data);
   });
 
