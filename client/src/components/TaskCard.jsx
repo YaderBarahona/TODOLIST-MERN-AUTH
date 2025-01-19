@@ -19,7 +19,7 @@ function Taskcard({ task }) {
         <div className="flex gap-x-2 items-center">
           <button className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md"
             onClick={() => {
-              console.log(task._id);
+              // console.log(task._id);
               deleteTask(task._id);
             }}
           >
